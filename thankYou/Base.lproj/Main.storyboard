@@ -26,13 +26,14 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <segue destination="F1R-8e-HYf" kind="show" id="VGX-m2-bfs"/>
+                                    <segue destination="F1R-8e-HYf" kind="presentation" modalPresentationStyle="fullScreen" id="VGX-m2-bfs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mij-My-HNg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +44,7 @@
             <objects>
                 <viewController id="F1R-8e-HYf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6O-VQ-tfb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emilyomar" translatesAutoresizingMaskIntoConstraints="NO" id="zaF-9d-cKq">
@@ -62,7 +63,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Omar"/>
                                 <connections>
-                                    <segue destination="qPu-dB-cVI" kind="show" id="qKV-Hi-Ymi"/>
+                                    <segue destination="qPu-dB-cVI" kind="presentation" modalPresentationStyle="fullScreen" id="qKV-Hi-Ymi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ui-0K-n5T">
@@ -80,7 +81,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <segue destination="W9c-ar-1FW" kind="show" id="dbb-sz-gOu"/>
+                                    <segue destination="W9c-ar-1FW" kind="presentation" modalPresentationStyle="fullScreen" id="dbb-sz-gOu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -98,7 +99,7 @@
             <objects>
                 <viewController id="W9c-ar-1FW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1aw-fA-w1W">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mabelkammy" translatesAutoresizingMaskIntoConstraints="NO" id="TO7-zL-SLI">
@@ -111,7 +112,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Mabel"/>
                                 <connections>
-                                    <segue destination="eGc-ql-rLc" kind="show" id="iFH-eV-Xd2"/>
+                                    <segue destination="eGc-ql-rLc" kind="presentation" modalPresentationStyle="fullScreen" id="iFH-eV-Xd2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlP-ir-y3b">
@@ -120,7 +121,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Kammy"/>
                                 <connections>
-                                    <segue destination="uzf-eX-ouU" kind="show" id="PiU-Pf-pMw"/>
+                                    <segue destination="uzf-eX-ouU" kind="presentation" modalPresentationStyle="fullScreen" id="PiU-Pf-pMw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fz-E2-5yY">
@@ -129,7 +130,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Thank you &lt;3"/>
                                 <connections>
-                                    <segue destination="63r-Lg-A1u" kind="show" id="rF5-m5-SFU"/>
+                                    <segue destination="63r-Lg-A1u" kind="presentation" modalPresentationStyle="fullScreen" id="rF5-m5-SFU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,7 +148,7 @@
             <objects>
                 <viewController id="eGc-ql-rLc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QOj-fz-o1A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mabel" translatesAutoresizingMaskIntoConstraints="NO" id="01k-EC-qkJ">
@@ -160,7 +161,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="W9c-ar-1FW" kind="show" id="sOZ-ve-0xB"/>
+                                    <segue destination="W9c-ar-1FW" kind="presentation" modalPresentationStyle="fullScreen" id="sOZ-ve-0xB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -178,13 +179,22 @@
             <objects>
                 <viewController id="63r-Lg-A1u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="So1-AS-vl8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ty" translatesAutoresizingMaskIntoConstraints="NO" id="srQ-39-myA">
-                                <rect key="frame" x="-2" y="-174" width="418" height="1191"/>
+                                <rect key="frame" x="-2" y="-147" width="418" height="1191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nff-9Q-lbI">
+                                <rect key="frame" x="157" y="691" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="qVV-Sr-z9O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x6d-AH-bxC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -200,20 +210,20 @@
             <objects>
                 <viewController id="uzf-eX-ouU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xvO-0j-Lw7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kammy" translatesAutoresizingMaskIntoConstraints="NO" id="GWe-ud-Ojz">
-                                <rect key="frame" x="-4" y="-168" width="423" height="1178"/>
+                                <rect key="frame" x="-4" y="-141" width="423" height="1178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmA-Io-jkw">
-                                <rect key="frame" x="158" y="740" width="99" height="31"/>
+                                <rect key="frame" x="158" y="759" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="W9c-ar-1FW" kind="show" id="vVC-BJ-Tpx"/>
+                                    <segue destination="W9c-ar-1FW" kind="presentation" modalPresentationStyle="fullScreen" id="vVC-BJ-Tpx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -235,16 +245,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emily" translatesAutoresizingMaskIntoConstraints="NO" id="W8G-Pr-5e2">
-                                <rect key="frame" x="0.0" y="-108" width="414" height="1093"/>
+                                <rect key="frame" x="0.0" y="-98" width="414" height="1093"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwD-kq-X25">
-                                <rect key="frame" x="158" y="740" width="99" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grB-cc-atN">
+                                <rect key="frame" x="158" y="756" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="F1R-8e-HYf" kind="show" id="gfh-8s-Lyw"/>
+                                    <segue destination="F1R-8e-HYf" kind="presentation" modalPresentationStyle="fullScreen" id="UXm-rd-cg7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -262,7 +272,7 @@
             <objects>
                 <viewController id="qPu-dB-cVI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WNi-wR-kcR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="omar" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-yJ-1d6">
@@ -276,12 +286,12 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRW-oK-G9K">
-                                <rect key="frame" x="158" y="754" width="99" height="31"/>
+                                <rect key="frame" x="158" y="753" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="F1R-8e-HYf" kind="show" id="sZD-hw-EzD"/>
+                                    <segue destination="F1R-8e-HYf" kind="presentation" modalPresentationStyle="fullScreen" id="oln-Rt-u2S"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -296,9 +306,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iFH-eV-Xd2"/>
-        <segue reference="sOZ-ve-0xB"/>
-        <segue reference="sZD-hw-EzD"/>
+        <segue reference="vVC-BJ-Tpx"/>
+        <segue reference="UXm-rd-cg7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="WELCOME" width="1080" height="1920"/>
